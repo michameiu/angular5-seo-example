@@ -8,6 +8,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "types": [
+      "jasmine","jasminewd2","node"
+    ],
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -15,5 +18,8 @@
       "es2017",
       "dom"
     ]
+  },
+  "angularCompilerOptions": { 
+    "entryModule": "./src/app/app.server.module#AppModule"
   }
 }
